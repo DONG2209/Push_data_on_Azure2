@@ -1,0 +1,830 @@
+{
+    "message": "Get Windows application's analysis successfully.",
+    "data": {
+        "id": "6682eb644194f9cc6c63c86d",
+        "md5": "ecf4ca26406147b507fd9614ec5bc29c",
+        "dos_header": {
+            "addressof_new_exeheader": 216,
+            "addressof_relocation_table": 64,
+            "checksum": 0,
+            "file_size_in_pages": 3,
+            "header_size_in_paragraphs": 4,
+            "initial_ip": 0,
+            "initial_relative_cs": 0,
+            "initial_relative_ss": 0,
+            "initial_sp": 184,
+            "magic": 23117,
+            "maximum_extra_paragraphs": 65535,
+            "minimum_extra_paragraphs": 0,
+            "numberof_relocation": 0,
+            "oem_id": 0,
+            "oem_info": 0,
+            "overlay_number": 0,
+            "used_bytes_in_the_last_page": 144
+        },
+        "header_characteristics": 271,
+        "header": {
+            "machine": 332,
+            "numberof_sections": 5,
+            "numberof_symbols": 0,
+            "pointerto_symbol_table": 0,
+            "signature": 149,
+            "sizeof_optional_header": 224,
+            "time_date_stamps": 1517284661
+        },
+        "optional_header": {
+            "addressof_entrypoint": 13477,
+            "baseof_code": 4096,
+            "baseof_data": 32768,
+            "checksum": 1712726,
+            "computed_checksum": 1712726,
+            "dll_characteristics": 34112,
+            "file_alignment": 512,
+            "imagebase": 4194304,
+            "loader_flags": 0,
+            "magic": 267,
+            "major_image_version": 6,
+            "major_linker_version": 6,
+            "major_operating_system_version": 4,
+            "major_subsystem_version": 4,
+            "minor_image_version": 0,
+            "minor_linker_version": 0,
+            "minor_operating_system_version": 0,
+            "minor_subsystem_version": 0,
+            "numberof_rva_and_size": 16,
+            "section_alignment": 4096,
+            "sizeof_code": 26112,
+            "sizeof_headers": 1024,
+            "sizeof_heap_commit": 4096,
+            "sizeof_heap_reserve": 1048576,
+            "sizeof_image": 438272,
+            "sizeof_initialized_data": 141824,
+            "sizeof_stack_commit": 4096,
+            "sizeof_stack_reserve": 1048576,
+            "sizeof_uninitialized_data": 2048,
+            "subsystem": 2,
+            "win32_version_value": 0
+        },
+        "data_directories": [
+            {
+                "has_section": false,
+                "rva": 0,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 0,
+                "type": 0
+            },
+            {
+                "has_section": true,
+                "rva": 34044,
+                "section": {
+                    "characteristics": 1073741888,
+                    "entropy": 5.220952733543649,
+                    "name": ".rdata",
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 27136,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 27136,
+                    "pointerto_relocation": 0,
+                    "size": 5120,
+                    "sizeof_raw_data": 5120,
+                    "virtual_address": 32768,
+                    "virtual_size": 5006
+                },
+                "size": 160,
+                "type": 1
+            },
+            {
+                "has_section": true,
+                "rva": 344064,
+                "section": {
+                    "characteristics": 1073741888,
+                    "entropy": 6.519495133669356,
+                    "name": ".rsrc",
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 33792,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 33792,
+                    "pointerto_relocation": 0,
+                    "size": 92160,
+                    "sizeof_raw_data": 92160,
+                    "virtual_address": 344064,
+                    "virtual_size": 92080
+                },
+                "size": 92080,
+                "type": 2
+            },
+            {
+                "has_section": false,
+                "rva": 0,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 0,
+                "type": 3
+            },
+            {
+                "has_section": false,
+                "rva": 1666888,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 9256,
+                "type": 4
+            },
+            {
+                "has_section": false,
+                "rva": 0,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 0,
+                "type": 5
+            },
+            {
+                "has_section": false,
+                "rva": 0,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 0,
+                "type": 6
+            },
+            {
+                "has_section": false,
+                "rva": 0,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 0,
+                "type": 7
+            },
+            {
+                "has_section": false,
+                "rva": 0,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 0,
+                "type": 8
+            },
+            {
+                "has_section": false,
+                "rva": 0,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 0,
+                "type": 9
+            },
+            {
+                "has_section": false,
+                "rva": 0,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 0,
+                "type": 10
+            },
+            {
+                "has_section": false,
+                "rva": 0,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 0,
+                "type": 11
+            },
+            {
+                "has_section": true,
+                "rva": 32768,
+                "section": {
+                    "characteristics": 1073741888,
+                    "entropy": 5.220952733543649,
+                    "name": ".rdata",
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 27136,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 27136,
+                    "pointerto_relocation": 0,
+                    "size": 5120,
+                    "sizeof_raw_data": 5120,
+                    "virtual_address": 32768,
+                    "virtual_size": 5006
+                },
+                "size": 688,
+                "type": 12
+            },
+            {
+                "has_section": false,
+                "rva": 0,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 0,
+                "type": 13
+            },
+            {
+                "has_section": false,
+                "rva": 0,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 0,
+                "type": 14
+            },
+            {
+                "has_section": false,
+                "rva": 0,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 0,
+                "type": 15
+            }
+        ],
+        "sections": [
+            {
+                "characteristics": 1610612768,
+                "entropy": 6.4880822430494165,
+                "name": ".text",
+                "numberof_line_numbers": 0,
+                "numberof_relocations": 0,
+                "offset": 1024,
+                "pointerto_line_numbers": 0,
+                "pointerto_raw_data": 1024,
+                "pointerto_relocation": 0,
+                "size": 26112,
+                "sizeof_raw_data": 26112,
+                "virtual_address": 4096,
+                "virtual_size": 25609
+            },
+            {
+                "characteristics": 1073741888,
+                "entropy": 5.220952733543649,
+                "name": ".rdata",
+                "numberof_line_numbers": 0,
+                "numberof_relocations": 0,
+                "offset": 27136,
+                "pointerto_line_numbers": 0,
+                "pointerto_raw_data": 27136,
+                "pointerto_relocation": 0,
+                "size": 5120,
+                "sizeof_raw_data": 5120,
+                "virtual_address": 32768,
+                "virtual_size": 5006
+            },
+            {
+                "characteristics": 3221225536,
+                "entropy": 4.004402321344157,
+                "name": ".data",
+                "numberof_line_numbers": 0,
+                "numberof_relocations": 0,
+                "offset": 32256,
+                "pointerto_line_numbers": 0,
+                "pointerto_raw_data": 32256,
+                "pointerto_relocation": 0,
+                "size": 1536,
+                "sizeof_raw_data": 1536,
+                "virtual_address": 40960,
+                "virtual_size": 131928
+            },
+            {
+                "characteristics": 3221225600,
+                "entropy": 0.0,
+                "name": ".ndata",
+                "numberof_line_numbers": 0,
+                "numberof_relocations": 0,
+                "offset": 0,
+                "pointerto_line_numbers": 0,
+                "pointerto_raw_data": 0,
+                "pointerto_relocation": 0,
+                "size": 0,
+                "sizeof_raw_data": 0,
+                "virtual_address": 176128,
+                "virtual_size": 167936
+            },
+            {
+                "characteristics": 1073741888,
+                "entropy": 6.519495133669356,
+                "name": ".rsrc",
+                "numberof_line_numbers": 0,
+                "numberof_relocations": 0,
+                "offset": 33792,
+                "pointerto_line_numbers": 0,
+                "pointerto_raw_data": 33792,
+                "pointerto_relocation": 0,
+                "size": 92160,
+                "sizeof_raw_data": 92160,
+                "virtual_address": 344064,
+                "virtual_size": 92080
+            }
+        ],
+        "_import": {
+            "has_section": true,
+            "rva": 34044,
+            "section": {
+                "characteristics": 1073741888,
+                "entropy": 5.220952733543649,
+                "name": ".rdata",
+                "numberof_line_numbers": 0,
+                "numberof_relocations": 0,
+                "offset": 27136,
+                "pointerto_line_numbers": 0,
+                "pointerto_raw_data": 27136,
+                "pointerto_relocation": 0,
+                "size": 5120,
+                "sizeof_raw_data": 5120,
+                "virtual_address": 32768,
+                "virtual_size": 5006
+            },
+            "size": 160,
+            "type": 1
+        },
+        "libraries": [
+            {
+                "name": "KERNEL32.dll",
+                "forwarder_chain": 0,
+                "timedatestamp": 0,
+                "import_address_table_rva": 32880,
+                "import_lookup_table_rva": 34316,
+                "entries": [
+                    {
+                        "data": 35524,
+                        "hint": 185,
+                        "iat_address": 32880,
+                        "iat_value": 35524,
+                        "is_ordinal": false,
+                        "name": "ExitProcess",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 35396,
+                        "hint": 794,
+                        "iat_address": 32884,
+                        "iat_value": 35396,
+                        "is_ordinal": false,
+                        "name": "SetFileAttributesW",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 35418,
+                        "hint": 854,
+                        "iat_address": 32888,
+                        "iat_value": 35418,
+                        "is_ordinal": false,
+                        "name": "Sleep",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 35426,
+                        "hint": 479,
+                        "iat_address": 32892,
+                        "iat_value": 35426,
+                        "is_ordinal": false,
+                        "name": "GetTickCount",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 35442,
+                        "hint": 86,
+                        "iat_address": 32896,
+                        "iat_value": 35442,
+                        "is_ordinal": false,
+                        "name": "CreateFileW",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "name": "USER32.dll",
+                "forwarder_chain": 0,
+                "timedatestamp": 0,
+                "import_address_table_rva": 33172,
+                "import_lookup_table_rva": 34608,
+                "entries": [
+                    {
+                        "data": 36586,
+                        "hint": 348,
+                        "iat_address": 33172,
+                        "iat_value": 36586,
+                        "is_ordinal": false,
+                        "name": "GetSystemMenu",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 36602,
+                        "hint": 584,
+                        "iat_address": 33176,
+                        "iat_value": 36602,
+                        "is_ordinal": false,
+                        "name": "SetClassLongW",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 36568,
+                        "hint": 194,
+                        "iat_address": 33180,
+                        "iat_value": 36568,
+                        "is_ordinal": false,
+                        "name": "EnableMenuItem",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 36618,
+                        "hint": 430,
+                        "iat_address": 33184,
+                        "iat_value": 36618,
+                        "is_ordinal": false,
+                        "name": "IsWindowEnabled",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 36636,
+                        "hint": 643,
+                        "iat_address": 33188,
+                        "iat_value": 36636,
+                        "is_ordinal": false,
+                        "name": "SetWindowPos",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "name": "GDI32.dll",
+                "forwarder_chain": 0,
+                "timedatestamp": 0,
+                "import_address_table_rva": 32844,
+                "import_lookup_table_rva": 34280,
+                "entries": [
+                    {
+                        "data": 37078,
+                        "hint": 526,
+                        "iat_address": 32844,
+                        "iat_value": 37078,
+                        "is_ordinal": false,
+                        "name": "SelectObject",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 37110,
+                        "hint": 534,
+                        "iat_address": 32848,
+                        "iat_value": 37110,
+                        "is_ordinal": false,
+                        "name": "SetBkMode",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 37122,
+                        "hint": 61,
+                        "iat_address": 32852,
+                        "iat_value": 37122,
+                        "is_ordinal": false,
+                        "name": "CreateFontIndirectW",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 37094,
+                        "hint": 572,
+                        "iat_address": 32856,
+                        "iat_value": 37094,
+                        "is_ordinal": false,
+                        "name": "SetTextColor",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 37166,
+                        "hint": 143,
+                        "iat_address": 32860,
+                        "iat_value": 37166,
+                        "is_ordinal": false,
+                        "name": "DeleteObject",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "name": "SHELL32.dll",
+                "forwarder_chain": 0,
+                "timedatestamp": 0,
+                "import_address_table_rva": 33144,
+                "import_lookup_table_rva": 34580,
+                "entries": [
+                    {
+                        "data": 37324,
+                        "hint": 195,
+                        "iat_address": 33144,
+                        "iat_value": 37324,
+                        "is_ordinal": false,
+                        "name": "SHGetSpecialFolderLocation",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 37306,
+                        "hint": 266,
+                        "iat_address": 33148,
+                        "iat_value": 37306,
+                        "is_ordinal": false,
+                        "name": "ShellExecuteExW",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 37282,
+                        "hint": 189,
+                        "iat_address": 33152,
+                        "iat_value": 37282,
+                        "is_ordinal": false,
+                        "name": "SHGetPathFromIDListW",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 37260,
+                        "hint": 122,
+                        "iat_address": 33156,
+                        "iat_value": 37260,
+                        "is_ordinal": false,
+                        "name": "SHBrowseForFolderW",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 37242,
+                        "hint": 173,
+                        "iat_address": 33160,
+                        "iat_value": 37242,
+                        "is_ordinal": false,
+                        "name": "SHGetFileInfoW",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "name": "ADVAPI32.dll",
+                "forwarder_chain": 0,
+                "timedatestamp": 0,
+                "import_address_table_rva": 32768,
+                "import_lookup_table_rva": 34204,
+                "entries": [
+                    {
+                        "data": 37482,
+                        "hint": 28,
+                        "iat_address": 32768,
+                        "iat_value": 37482,
+                        "is_ordinal": false,
+                        "name": "AdjustTokenPrivileges",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 37586,
+                        "hint": 466,
+                        "iat_address": 32772,
+                        "iat_value": 37586,
+                        "is_ordinal": false,
+                        "name": "RegCreateKeyExW",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 37570,
+                        "hint": 493,
+                        "iat_address": 32776,
+                        "iat_value": 37570,
+                        "is_ordinal": false,
+                        "name": "RegOpenKeyExW",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 37550,
+                        "hint": 559,
+                        "iat_address": 32780,
+                        "iat_value": 37550,
+                        "is_ordinal": false,
+                        "name": "SetFileSecurityW",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 37530,
+                        "hint": 428,
+                        "iat_address": 32784,
+                        "iat_value": 37530,
+                        "is_ordinal": false,
+                        "name": "OpenProcessToken",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    }
+                ]
+            }
+        ],
+        "tls": null,
+        "malware_type": "Trojan",
+        "created_at": "2024-07-01T17:46:12.142000"
+    }
+}
